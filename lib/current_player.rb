@@ -4,6 +4,6 @@ def turn_count(board)
     if space == "X" || space == "O"
       turn_counter += 1
     end
-    turn_counter
   end
+  turn_counter
 end
