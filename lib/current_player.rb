@@ -3,9 +3,9 @@ def turn_count(board)
   o_counter = 0
   turns_remaining = 9
   board.each do|apple|
-    if|apple| == "X"
+    if board[apple] == "X"
       x_counter += 1
-    elsif|apple| == "O"
+    elsif board[apple] == "O"
       o_counter += 1
     else
       turns_remaining -= 1
