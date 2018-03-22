@@ -15,3 +15,7 @@ def current_player(board)
     "O"
   end
 end
+
+input_type = gets =~ /hello/i ? "greeting" : "other"
+
+turn_count(board).even? ? "X" : "O"
