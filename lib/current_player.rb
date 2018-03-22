@@ -9,6 +9,5 @@ def turn_count(board)
       o_counter += 1
     else
       turns_remaining -= 1
-
     end
   end
